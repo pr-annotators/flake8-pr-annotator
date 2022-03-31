@@ -1,5 +1,7 @@
 # Flake8 PR Annotator
 
+![demo](images/demo.png)
+
 ## Usage
 
 Annotate pull requests with flake8 errors detected during CI.
@@ -27,7 +29,7 @@ jobs:
           pip install flake8
 
       - name: Add flake8 annotator
-        uses: jpy-git/flake8-pr-annotator@master
+        uses: pr-annotators/flake8-pr-annotator@master
 
       - name: Run flake8
         run: |
