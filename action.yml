@@ -1,0 +1,8 @@
+name: "Flake8 PR Annotator"
+description: "Annotate pull requests with flake8 errors detected during CI"
+author: "Joe Young"
+runs:
+  using: "composite"
+  steps:
+    - run: echo "::add-matcher::${{ github.action_path }}/problem-matcher.json"
+      shell: bash
