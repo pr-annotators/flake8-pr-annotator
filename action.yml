@@ -1,7 +1,8 @@
 name: "Flake8 PR Annotator"
 description: "Annotate pull requests with flake8 errors detected during CI"
-icon: "check-circle"
-color: "green"
+branding:
+  icon: "check-circle"
+  color: "green"
 author: "Joe Young"
 runs:
   using: "composite"
