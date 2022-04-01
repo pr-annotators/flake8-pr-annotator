@@ -29,7 +29,7 @@ jobs:
           pip install flake8
 
       - name: Add flake8 annotator
-        uses: pr-annotators/flake8-pr-annotator@master
+        uses: pr-annotators/flake8-pr-annotator@v1.0.0
 
       - name: Run flake8
         run: |
